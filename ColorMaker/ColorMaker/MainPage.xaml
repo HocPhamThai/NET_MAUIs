@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ColorMaker.MainPage">
+
+    <ContentPage.Resources>
+        <Color x:Key="PrimaryColor">#ab3527</Color>
+        <Color x:Key="SecondaryColor">#775752</Color>
+        <Color x:Key="TertiaryColor">#705c2e</Color>
+    </ContentPage.Resources>
+    <Grid x:Name="Container" Background="Black">
+        <Frame Margin="10,0,10,0" VerticalOptions="Center">
+            <VerticalStackLayout Spacing="15" VerticalOptions="Center">
+                <Label Text="Color Maker" FontSize="Large" HorizontalOptions="Center"/>
+                <Label Text="Red Value"/>
+                <Slider x:Name="RedSlider" 
+                        ThumbColor="{StaticResource PrimaryColor}"
+                        MinimumTrackColor="{StaticResource TertiaryColor}" 
+                        MaximumTrackColor="{StaticResource SecondaryColor}"/>
+                <Label Text="Green Value"/>
+                <Slider x:Name="GreenSlider" 
+                        ThumbColor="{StaticResource PrimaryColor}"
+                        MinimumTrackColor="{StaticResource TertiaryColor}" 
+                        MaximumTrackColor="{StaticResource SecondaryColor}"/>
+                <Label Text="Blue Value"/>
+                <Slider x:Name="BlueSlider" 
+                        ThumbColor="{StaticResource PrimaryColor}"
+                        MinimumTrackColor="{StaticResource TertiaryColor}" 
+                        MaximumTrackColor="{StaticResource SecondaryColor}"/>
+                <Frame CornerRadius="25" Margin="10,0,10,0" HorizontalOptions="Center" Background="White">
+                    <HorizontalStackLayout>
+                        <Label x:Name="lblHex" HorizontalOptions="End" Text="HEX Value: #00000" VerticalOptions="Center"/>
+                        <ImageButton Margin="10,0,0,0" HeightRequest="25" WidthRequest="25" 
+                                     Source="dotnet_bot.png" BackgroundColor="LightSalmon"
+                                     CornerRadius="5"/>
+                    </HorizontalStackLayout>
+                </Frame>
+                <Button x:Name="btnRandom" Background="{StaticResource PrimaryColor}" Text="Generate Random Color"/>
+            </VerticalStackLayout>
+        </Frame> 
+
+    </Grid>
+</ContentPage>
