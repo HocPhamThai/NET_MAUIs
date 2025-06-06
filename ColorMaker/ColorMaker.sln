@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMaker", "ColorMaker\ColorMaker.csproj", "{74913E67-1385-46FC-B6AF-CEB00458580E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangmanGame", "HangmanGame\HangmanGame.csproj", "{90F9F9F0-6609-4B55-A6B4-1B7FDAF3AB66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{74913E67-1385-46FC-B6AF-CEB00458580E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74913E67-1385-46FC-B6AF-CEB00458580E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74913E67-1385-46FC-B6AF-CEB00458580E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90F9F9F0-6609-4B55-A6B4-1B7FDAF3AB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90F9F9F0-6609-4B55-A6B4-1B7FDAF3AB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90F9F9F0-6609-4B55-A6B4-1B7FDAF3AB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90F9F9F0-6609-4B55-A6B4-1B7FDAF3AB66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
