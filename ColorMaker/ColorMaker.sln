@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangmanGame", "HangmanGame\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfectPay", "PerfectPay\PerfectPay.csproj", "{FB24D1B8-DE42-4E2B-9A82-1B76E5DA563D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeQuotes", "CodeQuotes\CodeQuotes.csproj", "{6618A31F-9D1D-498E-BA5E-5274D04668C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,12 @@ Global
 		{FB24D1B8-DE42-4E2B-9A82-1B76E5DA563D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB24D1B8-DE42-4E2B-9A82-1B76E5DA563D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB24D1B8-DE42-4E2B-9A82-1B76E5DA563D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6618A31F-9D1D-498E-BA5E-5274D04668C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6618A31F-9D1D-498E-BA5E-5274D04668C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6618A31F-9D1D-498E-BA5E-5274D04668C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6618A31F-9D1D-498E-BA5E-5274D04668C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6618A31F-9D1D-498E-BA5E-5274D04668C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6618A31F-9D1D-498E-BA5E-5274D04668C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
